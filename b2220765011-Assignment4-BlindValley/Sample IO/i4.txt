@@ -1,0 +1,10 @@
+-1 -1 -1 -1 -1 2
+-1 -1 -1 1 -1 1
+-1 -1 1 -1 -1
+-1 2 -1 2 0
+U L R U U
+D L R D D
+U L R L R
+D U L R U
+U D L R D
+D L R L R
