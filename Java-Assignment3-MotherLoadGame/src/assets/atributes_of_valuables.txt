@@ -1,0 +1,11 @@
+Mineral Name	Worth($)	Weight(kg)
+Ironium	30	10
+Bronzium	60	10
+Silverium	100	10
+Goldium	250	20
+Platinum	750	30
+Einsteinium	2000	40
+Emerald	5000	60
+Ruby	20000	80
+Diamond	100000	100
+Amazonite	500000	120

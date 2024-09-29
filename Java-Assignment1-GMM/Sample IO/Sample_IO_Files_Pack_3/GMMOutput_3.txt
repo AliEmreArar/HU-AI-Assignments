@@ -1,0 +1,97 @@
+-----Gym Meal Machine-----
+Meatball Sandwich(868, 10)___Fried Rice(478, 10)___Protein Bar(211, 10)___Chicken Wrap(560, 10)___
+Beef Sandwich(487, 7)___Cookie(153, 10)___Chicken Pasta(395, 10)___Cheese Sandwich(367, 10)___
+Energy Drink(148, 7)___Protein Shake(163, 9)___Smoothie(175, 10)___Chicken Pasta(395, 6)___
+Fried Rice(478, 9)___Cookie(153, 7)___Protein Bar(211, 5)___Smoothie(175, 7)___
+Cheese Sandwich(367, 5)___Meatball Sandwich(868, 3)___Chicken Wrap(560, 3)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+----------
+INPUT: CASH	50 10	PROTEIN	51
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 27 TL
+INPUT: CASH	50 1 1 1 1	NUMBER	0
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 21 TL
+INPUT: CASH	20 20	CARB	90
+PURCHASE: You have bought one Fried Rice
+RETURN: Returning your change: 25 TL
+INPUT: CASH	20 1 5 10	FAT	40
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 3 TL
+INPUT: CASH	5 100	PROTEIN	45
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 105 TL
+INPUT: CASH	10 200	CALORIE	350
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 210 TL
+INPUT: CASH	20 20	NUMBER	0
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 7 TL
+INPUT: CASH	20 20	CARB	85
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 7 TL
+INPUT: CASH	20 100	FAT	33
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 87 TL
+INPUT: CASH	20 50	PROTEIN	55
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 37 TL
+INPUT: CASH	10 20 10	NUMBER	0
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 7 TL
+INPUT: CASH	20 10 10	CARB	80
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 7 TL
+INPUT: CASH	50 10	FAT	40
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 27 TL
+INPUT: CASH	20 20	CALORIE	870
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 7 TL
+INPUT: CASH	10 10	PROTEIN	54
+INFO: Insufficient money, try again with more money.
+RETURN: Returning your change: 20 TL
+INPUT: CASH	1 1 1 5 10	NUMBER	7
+PURCHASE: You have bought one Cheese Sandwich
+RETURN: Returning your change: 5 TL
+INPUT: CASH	20 10	CARB	90
+PURCHASE: You have bought one Fried Rice
+RETURN: Returning your change: 15 TL
+INPUT: CASH	100	FAT	10
+PURCHASE: You have bought one Fried Rice
+RETURN: Returning your change: 85 TL
+INPUT: CASH	200	PROTEIN	50
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 167 TL
+INPUT: CASH	10	NUMBER	0
+INFO: This slot is empty, your money will be returned.
+RETURN: Returning your change: 10 TL
+INPUT: CASH	50	PROTEIN	27
+PURCHASE: You have bought one Chicken Wrap
+RETURN: Returning your change: 32 TL
+INPUT: CASH	10	CALORIE	0
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 10 TL
+INPUT: CASH	20 1	FAT	20
+PURCHASE: You have bought one Cheese Sandwich
+RETURN: Returning your change: 8 TL
+INPUT: CASH	20 10 10	PROTEIN	110
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 40 TL
+INPUT: CASH	20 1 1 1 1	NUMBER	10
+PURCHASE: You have bought one Smoothie
+RETURN: Returning your change: 16 TL
+INPUT: CASH	20 10	CARB	90
+PURCHASE: You have bought one Fried Rice
+RETURN: Returning your change: 15 TL
+INPUT: CASH	50	FAT	30
+PURCHASE: You have bought one Chicken Wrap
+RETURN: Returning your change: 32 TL
+-----Gym Meal Machine-----
+___(0, 0)___Fried Rice(478, 6)___Protein Bar(211, 10)___Chicken Wrap(560, 8)___
+Beef Sandwich(487, 7)___Cookie(153, 10)___Chicken Pasta(395, 10)___Cheese Sandwich(367, 8)___
+Energy Drink(148, 7)___Protein Shake(163, 9)___Smoothie(175, 9)___Chicken Pasta(395, 6)___
+Fried Rice(478, 9)___Cookie(153, 7)___Protein Bar(211, 5)___Smoothie(175, 7)___
+Cheese Sandwich(367, 5)___Meatball Sandwich(868, 1)___Chicken Wrap(560, 3)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+----------

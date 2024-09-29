@@ -1,0 +1,52 @@
+-----Gym Meal Machine-----
+Cheese Sandwich(367, 10)___Protein Bar(211, 10)___Beef Sandwich(487, 5)___Cookie(153, 10)___
+Fried Rice(478, 10)___Water(0, 10)___Energy Drink(148, 6)___Protein Shake(163, 6)___
+Smoothie(175, 10)___Chicken Wrap(560, 6)___Water(0, 10)___Fried Rice(478, 4)___
+Cookie(153, 2)___Cheese Sandwich(367, 2)___Protein Bar(211, 1)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+----------
+INPUT: CASH	5 10	CARB	30
+PURCHASE: You have bought one Cheese Sandwich
+RETURN: Returning your change: 2 TL
+INPUT: CASH	20 1 1 1 1	NUMBER	5
+PURCHASE: You have bought one Water
+RETURN: Returning your change: 21 TL
+INPUT: CASH	20 10	PROTEIN	30
+PURCHASE: You have bought one Beef Sandwich
+RETURN: Returning your change: 10 TL
+INPUT: CASH	20 5	NUMBER	102
+INFO: Number cannot be accepted. Please try again with another number.
+RETURN: Returning your change: 25 TL
+INPUT: CASH	1 1 5 10	FAT	10
+PURCHASE: You have bought one Protein Bar
+RETURN: Returning your change: 12 TL
+INPUT: CASH	10 5	PROTEIN	35
+INFO: Insufficient money, try again with more money.
+RETURN: Returning your change: 15 TL
+INPUT: CASH	50	NUMBER	20
+INFO: This slot is empty, your money will be returned.
+RETURN: Returning your change: 50 TL
+INPUT: CASH	10 20	CALORIE	250
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 30 TL
+INPUT: CASH	200 10	CARB	40
+PURCHASE: You have bought one Energy Drink
+RETURN: Returning your change: 202 TL
+INPUT: CASH	20 10 5	NUMBER	12
+PURCHASE: You have bought one Cookie
+RETURN: Returning your change: 30 TL
+INPUT: CASH	1 1 1 10 20	PROTEIN	20
+PURCHASE: You have bought one Protein Bar
+RETURN: Returning your change: 28 TL
+INPUT: CASH	20 20	CALORIE	300
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 40 TL
+-----Gym Meal Machine-----
+Cheese Sandwich(367, 9)___Protein Bar(211, 8)___Beef Sandwich(487, 4)___Cookie(153, 10)___
+Fried Rice(478, 10)___Water(0, 9)___Energy Drink(148, 5)___Protein Shake(163, 6)___
+Smoothie(175, 10)___Chicken Wrap(560, 6)___Water(0, 10)___Fried Rice(478, 4)___
+Cookie(153, 1)___Cheese Sandwich(367, 2)___Protein Bar(211, 1)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+___(0, 0)______(0, 0)______(0, 0)______(0, 0)___
+----------

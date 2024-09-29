@@ -1,0 +1,18 @@
+Fastest Route from Van to İstanbul (1074 KM):
+Ankara	Van	673	3
+Ankara	İstanbul	401	10
+Roads of Barely Connected Map is:
+Sinop	Samsun	163	19
+Van	Rize	300	93
+Ankara	İstanbul	401	10
+Ankara	Sinop	422	8
+Samsun	Rize	450	21
+Fastest Route from Van to İstanbul on Barely Connected Map (1736 KM):
+Van	Rize	300	93
+Samsun	Rize	450	21
+Sinop	Samsun	163	19
+Ankara	Sinop	422	8
+Ankara	İstanbul	401	10
+Analysis:
+Ratio of Construction Material Usage Between Barely Connected and Original Map: 0.17
+Ratio of Fastest Route Between Barely Connected and Original Map: 1.62

@@ -1,0 +1,24 @@
+Fastest Route from Ankara to Adana (2100 KM):
+Ankara	Ordu	800	2
+Ordu	Samsun	100	5
+Samsun	Sinop	200	10
+Sinop	Adana	1000	14
+Roads of Barely Connected Map is:
+Ordu	Samsun	100	5
+Antalya	Afyonkarahisar	200	7
+Samsun	Sinop	200	10
+Ankara	İzmir	400	1
+Antalya	Sinop	400	11
+Antalya	Muğla	700	9
+Ankara	Ordu	800	2
+Muğla	Adana	900	13
+Fastest Route from Ankara to Adana on Barely Connected Map (3100 KM):
+Ankara	Ordu	800	2
+Ordu	Samsun	100	5
+Samsun	Sinop	200	10
+Antalya	Sinop	400	11
+Antalya	Muğla	700	9
+Muğla	Adana	900	13
+Analysis:
+Ratio of Construction Material Usage Between Barely Connected and Original Map: 0.40
+Ratio of Fastest Route Between Barely Connected and Original Map: 1.48

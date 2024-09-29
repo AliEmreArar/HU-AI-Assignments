@@ -1,0 +1,1735 @@
+COMMAND: INIT_VOYAGE	Standard	11	Ankara	İstanbul	11	350	10
+Voyage 11 was initialized as a standard (2+2) voyage from Ankara to İstanbul with 350.00 TL priced 44 regular seats. Note that refunds will be 10% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: INIT_VOYAGE	Premium	7	Sinop	Ankara	12	850	25	20
+Voyage 7 was initialized as a premium (1+2) voyage from Sinop to Ankara with 850.00 TL priced 24 regular seats and 1020.00 TL priced 12 premium seats. Note that refunds will be 25% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: INIT_VOYAGE	Minibus	2	Ankara	Polatlı	9	99.99
+Voyage 2 was initialized as a minibus (2) voyage from Ankara to Polatlı with 99.99 TL priced 18 regular seats. Note that minibus tickets are not refundable.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: INIT_VOYAGE	Premium	9	Sinop	Rize	15	900	0	0
+Voyage 9 was initialized as a premium (1+2) voyage from Sinop to Rize with 900.00 TL priced 30 regular seats and 900.00 TL priced 15 premium seats. Note that refunds will be 0% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: INIT_VOYAGE	Minibus	3	Pendik	Halkalı	15	150
+Voyage 3 was initialized as a minibus (2) voyage from Pendik to Halkalı with 150.00 TL priced 30 regular seats. Note that minibus tickets are not refundable.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: INIT_VOYAGE	Standard	5	İstanbul	İzmir	13	500	15
+Voyage 5 was initialized as a standard (2+2) voyage from İstanbul to İzmir with 500.00 TL priced 52 regular seats. Note that refunds will be 15% less than the paid amount.
+COMMAND: PRINT_VOYAGE	9
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	11	1_2_3_4
+Seat 1-2-3-4 of the Voyage 11 from Ankara to İstanbul was successfully sold for 1400.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: SELL_TICKET	7	3
+Seat 3 of the Voyage 7 from Sinop to Ankara was successfully sold for 850.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 850.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: SELL_TICKET	3	9_10_11
+Seat 9-10-11 of the Voyage 3 from Pendik to Halkalı was successfully sold for 450.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 0.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 850.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: SELL_TICKET	5	15
+Seat 15 of the Voyage 5 from İstanbul to İzmir was successfully sold for 500.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 0.00
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | X *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 500.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 850.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: SELL_TICKET	2	12
+Seat 12 of the Voyage 2 from Ankara to Polatlı was successfully sold for 99.99 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | X *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 500.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 850.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: SELL_TICKET	9	10_12_14
+Seat 10-12-14 of the Voyage 9 from Sinop to Rize was successfully sold for 2700.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | X *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 500.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 850.00
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: REFUND_TICKET	7	3
+Seat 3 of the Voyage 7 from Sinop to Ankara was successfully refunded for 637.50 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | X *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 500.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: REFUND_TICKET	5	15
+Seat 15 of the Voyage 5 from İstanbul to İzmir was successfully refunded for 425.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: REFUND_TICKET	2	12
+ERROR: Minibus tickets are not refundable!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X X | X X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 1400.00
+----------------
+COMMAND: REFUND_TICKET	11	2_3
+Seat 2-3 of the Voyage 11 from Ankara to İstanbul was successfully refunded for 630.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X * | * X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 770.00
+----------------
+COMMAND: REFUND_TICKET	3	9_11
+ERROR: Minibus tickets are not refundable!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+X | * X
+* | X *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2700.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X * | * X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 770.00
+----------------
+COMMAND: REFUND_TICKET	9	10_14
+Seat 10-14 of the Voyage 9 from Sinop to Rize was successfully refunded for 1800.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 900.00
+----------------
+Voyage 11
+Ankara-İstanbul
+X * | * X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 770.00
+----------------
+COMMAND: CANCEL_VOYAGE	9
+Voyage 9 was successfully cancelled!
+Voyage details can be found below:
+Voyage 9
+Sinop-Rize
+* | * *
+* | * *
+* | * *
+* | * X
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 2
+Ankara-Polatlı
+* *
+* *
+* *
+* *
+* *
+* X
+* *
+* *
+* *
+Revenue: 99.99
+----------------
+Voyage 3
+Pendik-Halkalı
+* *
+* *
+* *
+* *
+X X
+X *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+* *
+Revenue: 450.00
+----------------
+Voyage 5
+İstanbul-İzmir
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 75.00
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 212.50
+----------------
+Voyage 11
+Ankara-İstanbul
+X * | * X
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+* * | * *
+Revenue: 770.00
+----------------

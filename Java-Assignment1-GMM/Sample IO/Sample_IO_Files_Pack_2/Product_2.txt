@@ -1,0 +1,261 @@
+Fried Rice	15	11 90 8.2
+Meatball Sandwich	33	54 82 36
+Protein Bar	5	20 21 5.2
+Chicken Wrap	18	32 45 28
+Protein Bar	5	20 21 5.2
+Beef Sandwich	20	33 28 27
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Water	3	0 0 0
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Beef Sandwich	20	33 28 27
+Fried Rice	15	11 90 8.2
+Energy Drink	8	1 36 0
+Protein Shake	8	19 2.5 8.5
+Water	3	0 0 0
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Meatball Sandwich	33	54 82 36
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Fried Rice	15	11 90 8.2
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Meatball Sandwich	33	54 82 36
+Smoothie	8	5.5 34 1.9
+Chicken Wrap	18	32 45 28
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Meatball Sandwich	33	54 82 36
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Meatball Sandwich	33	54 82 36
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Meatball Sandwich	33	54 82 36
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Cheese Sandwich	13	12 28 23
+Meatball Sandwich	33	54 82 36
+Smoothie	8	5.5 34 1.9
+Water	3	0 0 0
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Chicken Wrap	18	32 45 28
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Smoothie	8	5.5 34 1.9
+Water	3	0 0 0
+Protein Shake	8	19 2.5 8.5
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Water	3	0 0 0
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Meatball Sandwich	33	54 82 36
+Cookie	5	1.5 20 7.4
+Smoothie	8	5.5 34 1.9
+Protein Shake	8	19 2.5 8.5
+Meatball Sandwich	33	54 82 36
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Fried Rice	15	11 90 8.2
+Cookie	5	1.5 20 7.4
+Protein Shake	8	19 2.5 8.5
+Cheese Sandwich	13	12 28 23
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Chicken Wrap	18	32 45 28
+Fried Rice	15	11 90 8.2
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Protein Shake	8	19 2.5 8.5
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Chicken Wrap	18	32 45 28
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Protein Shake	8	19 2.5 8.5
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cookie	5	1.5 20 7.4
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Chicken Wrap	18	32 45 28
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Chicken Wrap	18	32 45 28
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Meatball Sandwich	33	54 82 36
+Energy Drink	8	1 36 0
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Smoothie	8	5.5 34 1.9
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Cheese Sandwich	13	12 28 23
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Chicken Wrap	18	32 45 28
+Cookie	5	1.5 20 7.4
+Cheese Sandwich	13	12 28 23
+Fried Rice	15	11 90 8.2
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Smoothie	8	5.5 34 1.9
+Fried Rice	15	11 90 8.2
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Chicken Wrap	18	32 45 28
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Chicken Wrap	18	32 45 28
+Beef Sandwich	20	33 28 27
+Smoothie	8	5.5 34 1.9
+Protein Bar	5	20 21 5.2
+Cookie	5	1.5 20 7.4
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Meatball Sandwich	33	54 82 36
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Energy Drink	8	1 36 0
+Protein Bar	5	20 21 5.2
+Cheese Sandwich	13	12 28 23
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Protein Shake	8	19 2.5 8.5
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Beef Sandwich	20	33 28 27
+Fried Rice	15	11 90 8.2
+Energy Drink	8	1 36 0
+Protein Shake	8	19 2.5 8.5
+Smoothie	8	5.5 34 1.9
+Water	3	0 0 0
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Beef Sandwich	20	33 28 27
+Smoothie	8	5.5 34 1.9
+Energy Drink	8	1 36 0
+Protein Shake	8	19 2.5 8.5
+Fried Rice	15	11 90 8.2
+Water	3	0 0 0
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Beef Sandwich	20	33 28 27
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Protein Shake	8	19 2.5 8.5
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Cookie	5	1.5 20 7.4
+Smoothie	8	5.5 34 1.9
+Protein Shake	8	19 2.5 8.5
+Cheese Sandwich	13	12 28 23
+Water	3	0 0 0
+Beef Sandwich	20	33 28 27
+Fried Rice	15	11 90 8.2
+Energy Drink	8	1 36 0
+Protein Shake	8	19 2.5 8.5
+Water	3	0 0 0
+Cheese Sandwich	13	12 28 23
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4
+Cheese Sandwich	13	12 28 23
+Chickpea Salad	12	11.5 37 12.9
+Cookie	5	1.5 20 7.4
+Energy Drink	8	1 36 0
+Cookie	5	1.5 20 7.4
+Fried Rice	15	11 90 8.2
+Smoothie	8	5.5 34 1.9
+Cookie	5	1.5 20 7.4

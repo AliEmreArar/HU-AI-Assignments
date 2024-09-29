@@ -1,0 +1,14 @@
+Fastest Route from Ankara to İstanbul (3 KM):
+Ankara	Bursa	1	10
+Bursa	İstanbul	2	2
+Roads of Barely Connected Map is:
+Bolu	İstanbul	1	1
+Ankara	Bursa	1	10
+Ankara	İzmir	1	20
+Bursa	İstanbul	2	2
+Fastest Route from Ankara to İstanbul on Barely Connected Map (3 KM):
+Ankara	Bursa	1	10
+Bursa	İstanbul	2	2
+Analysis:
+Ratio of Construction Material Usage Between Barely Connected and Original Map: 0.56
+Ratio of Fastest Route Between Barely Connected and Original Map: 1.00

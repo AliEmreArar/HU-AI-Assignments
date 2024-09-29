@@ -1,0 +1,450 @@
+COMMAND: INIT_VOYAGE	Astral	10	Earth	Mars	5	800
+ERROR: Erroneous usage of "INIT_VOYAGE" command!
+COMMAND: COMMAND
+ERROR: There is no command namely COMMAND!
+COMMAND: ERROR
+ERROR: There is no command namely ERROR!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: SELL_TICKET	10
+ERROR: Erroneous usage of "SELL_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: CANCEL_VOYAGE	10	10
+ERROR: Erroneous usage of "CANCEL_VOYAGE" command!
+COMMAND: Z_REPORT	Z_REPORT
+ERROR: Erroneous usage of "Z_REPORT" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: ERRONEOUS	COMMAND
+ERROR: There is no command namely ERRONEOUS!
+COMMAND: SELL_TICKET	10
+ERROR: Erroneous usage of "SELL_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: REFUND_TICKET	10
+ERROR: Erroneous usage of "REFUND_TICKET" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: PRINT_VOYAGE
+ERROR: Erroneous usage of "PRINT_VOYAGE" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: CANCEL_VOYAGE
+ERROR: Erroneous usage of "CANCEL_VOYAGE" command!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Standard	-8	Venus	Pluto	17	300	20
+ERROR: -8 is not a positive integer, ID of a voyage must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	15	Milky Way	Andromeda	-20	500	10	20
+ERROR: -20 is not a positive integer, number of seat rows of a voyage must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	15	Krusty Krab	Chum Bucket	100	-30	20	30
+ERROR: -30 is not a positive number, price must be a positive number!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	12	New New York	Quahog	20	1000	-30	40
+ERROR: -30 is not an integer that is in range of [0, 100], refund cut must be an integer that is in range of [0, 100]!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	12	Abstraction	Encapsulation	15	800	50	-10
+ERROR: -10 is not a non-negative integer, premium fee must be a non-negative integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	10	Inheritance	Polymorphism	10	1000	25	30
+Voyage 10 was initialized as a premium (1+2) voyage from Inheritance to Polymorphism with 1000.00 TL priced 20 regular seats and 1300.00 TL priced 10 premium seats. Note that refunds will be 25% less than the paid amount.
+COMMAND: INIT_VOYAGE	Minibus	10	Polymorphism	Inheritance	7	500
+ERROR: There is already a voyage with ID of 10!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	1	3
+ERROR: There is no voyage with ID of 1!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	10	100
+ERROR: There is no such a seat!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: REFUND_TICKET	10	100
+ERROR: There is no such a seat!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	10	1_2_3_4
+Seat 1-2-3-4 of the Voyage 10 from Inheritance to Polymorphism was successfully sold for 4600.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+X | X X
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 4600.00
+----------------
+COMMAND: SELL_TICKET	10	-1_-2
+ERROR: -1 is not a positive integer, seat number must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+X | X X
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 4600.00
+----------------
+COMMAND: SELL_TICKET	10	15_12_2_3
+ERROR: One or more seats already sold!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+X | X X
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 4600.00
+----------------
+COMMAND: REFUND_TICKET	10	1_3
+Seat 1-3 of the Voyage 10 from Inheritance to Polymorphism was successfully refunded for 1725.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | X *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2875.00
+----------------
+COMMAND: REFUND_TICKET	10	2_4_1_3
+ERROR: One or more seats are already empty!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | X *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2875.00
+----------------
+COMMAND: REFUND_TICKET	30	4
+ERROR: There is no voyage with ID of 30!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | X *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2875.00
+----------------
+COMMAND: REFUND_TICKET	10	-1
+ERROR: -1 is not a positive integer, seat number must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | X *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2875.00
+----------------
+COMMAND: REFUND_TICKET	10	2
+Seat 2 of the Voyage 10 from Inheritance to Polymorphism was successfully refunded for 750.00 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: PRINT_VOYAGE	-30
+ERROR: -30 is not a positive integer, ID of a voyage must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: PRINT_VOYAGE	30
+ERROR: There is no voyage with ID of 30!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: PRINT_VOYAGE	10
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: CANCEL_VOYAGE	-10
+ERROR: -10 is not a positive integer, ID of a voyage must be a positive integer!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: CANCEL_VOYAGE	30
+ERROR: There is no voyage with ID of 30!
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 2125.00
+----------------
+COMMAND: CANCEL_VOYAGE	10
+Voyage 10 was successfully cancelled!
+Voyage details can be found below:
+Voyage 10
+Inheritance-Polymorphism
+* | * *
+X | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 825.00
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------

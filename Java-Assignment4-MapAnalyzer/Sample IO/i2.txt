@@ -1,0 +1,15 @@
+Ankara	Adana
+Ankara	İzmir	400	1
+Ankara	Ordu	800	2
+İzmir	Ordu	1100	3
+İzmir	Antalya	800	4
+Ordu	Samsun	100	5
+Ordu	Afyonkarahisar	700	6
+Antalya	Afyonkarahisar	200	7
+Afyonkarahisar	Samsun	600	8
+Antalya	Muğla	700	9
+Samsun	Sinop	200	10
+Antalya	Sinop	400	11
+Muğla	Sinop	1400	12
+Muğla	Adana	900	13
+Sinop	Adana	1000	14

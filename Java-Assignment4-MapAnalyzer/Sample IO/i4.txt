@@ -1,0 +1,7 @@
+Ankara	İstanbul
+Ankara	Bursa	1	10
+Ankara	İzmir	1	20
+Ankara	Bolu	2	30
+Bursa	İstanbul	2	2
+İzmir	İstanbul	2	3
+Bolu	İstanbul	1	1

@@ -1,0 +1,16 @@
+Van	İstanbul
+Sinop	İstanbul	700	17
+Ankara	Van	673	3
+Sinop	Rize	600	18
+Ankara	Samsun	456	5
+Van	Rize	300	93
+Samsun	Rize	450	21
+Rize	İstanbul	1000	84
+Samsun	Van	800	15
+Sinop	Samsun	163	19
+Ankara	Sinop	422	8
+Van	İstanbul	2000	94
+Ankara	İstanbul	401	10
+Sinop	Van	1000	20
+Ankara	Rize	500	7
+Samsun	İstanbul	730	38

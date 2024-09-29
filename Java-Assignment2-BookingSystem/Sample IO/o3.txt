@@ -1,0 +1,159 @@
+COMMAND: INIT_VOYAGE	Premium	7	Ankara	Sinop	5	799.99	19	21
+Voyage 7 was initialized as a premium (1+2) voyage from Ankara to Sinop with 799.99 TL priced 10 regular seats and 967.99 TL priced 5 premium seats. Note that refunds will be 19% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Ankara-Sinop
+* | * *
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	7	1_2_3_4_5_6_7_8_9_10_11_12_13_14_15
+Seat 1-2-3-4-5-6-7-8-9-10-11-12-13-14-15 of the Voyage 7 from Ankara to Sinop was successfully sold for 12839.84 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Ankara-Sinop
+X | X X
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 12839.84
+----------------
+COMMAND: REFUND_TICKET	7	1_3_5_7_9_11_13_15
+Seat 1-3-5-7-9-11-13-15 of the Voyage 7 from Ankara to Sinop was successfully refunded for 5592.17 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Ankara-Sinop
+* | X *
+X | * X
+* | X *
+X | * X
+* | X *
+Revenue: 7247.67
+----------------
+COMMAND: SELL_TICKET	7	1_3_5_7_9_11_13_15
+Seat 1-3-5-7-9-11-13-15 of the Voyage 7 from Ankara to Sinop was successfully sold for 6903.91 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Ankara-Sinop
+X | X X
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 14151.58
+----------------
+COMMAND: PRINT_VOYAGE	7
+Voyage 7
+Ankara-Sinop
+X | X X
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 14151.58
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Ankara-Sinop
+X | X X
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 14151.58
+----------------
+COMMAND: CANCEL_VOYAGE	7
+Voyage 7 was successfully cancelled!
+Voyage details can be found below:
+Voyage 7
+Ankara-Sinop
+X | X X
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 1311.74
+COMMAND: Z_REPORT
+Z Report:
+----------------
+No Voyages Available!
+----------------
+COMMAND: INIT_VOYAGE	Premium	7	Sinop	Ankara	4	599.99	23	17
+Voyage 7 was initialized as a premium (1+2) voyage from Sinop to Ankara with 599.99 TL priced 8 regular seats and 701.99 TL priced 4 premium seats. Note that refunds will be 23% less than the paid amount.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 0.00
+----------------
+COMMAND: SELL_TICKET	7	1_3_5_7_9_11
+Seat 1-3-5-7-9-11 of the Voyage 7 from Sinop to Ankara was successfully sold for 3803.94 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Sinop-Ankara
+X | * X
+* | X *
+X | * X
+* | X *
+Revenue: 3803.94
+----------------
+COMMAND: SELL_TICKET	7	2_4_6_8_10_12
+Seat 2-4-6-8-10-12 of the Voyage 7 from Sinop to Ankara was successfully sold for 3803.94 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Sinop-Ankara
+X | X X
+X | X X
+X | X X
+X | X X
+Revenue: 7607.87
+----------------
+COMMAND: REFUND_TICKET	7	1_2_3_4_5_6_7_8_9_10_11_12
+Seat 1-2-3-4-5-6-7-8-9-10-11-12 of the Voyage 7 from Sinop to Ankara was successfully refunded for 5858.06 TL.
+COMMAND: Z_REPORT
+Z Report:
+----------------
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 1749.81
+----------------
+COMMAND: CANCEL_VOYAGE	7
+Voyage 7 was successfully cancelled!
+Voyage details can be found below:
+Voyage 7
+Sinop-Ankara
+* | * *
+* | * *
+* | * *
+* | * *
+Revenue: 1749.81
+Z Report:
+----------------
+No Voyages Available!
+----------------

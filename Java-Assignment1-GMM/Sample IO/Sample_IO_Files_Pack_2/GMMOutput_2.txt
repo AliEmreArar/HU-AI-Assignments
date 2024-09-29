@@ -1,0 +1,80 @@
+INFO: There is no available place to put Protein Bar
+INFO: There is no available place to put Meatball Sandwich
+INFO: There is no available place to put Protein Bar
+INFO: There is no available place to put Beef Sandwich
+INFO: There is no available place to put Fried Rice
+INFO: There is no available place to put Beef Sandwich
+INFO: There is no available place to put Fried Rice
+INFO: There is no available place to put Water
+INFO: There is no available place to put Water
+INFO: There is no available place to put Beef Sandwich
+INFO: There is no available place to put Fried Rice
+INFO: There is no available place to put Energy Drink
+INFO: There is no available place to put Protein Shake
+INFO: There is no available place to put Water
+INFO: There is no available place to put Chickpea Salad
+INFO: The machine is full!
+-----Gym Meal Machine-----
+Fried Rice(478, 10)___Meatball Sandwich(868, 10)___Protein Bar(211, 10)___Chicken Wrap(560, 10)___
+Beef Sandwich(487, 10)___Cookie(153, 10)___Water(0, 10)___Cheese Sandwich(367, 10)___
+Energy Drink(148, 10)___Protein Shake(163, 10)___Smoothie(175, 10)___Fried Rice(478, 10)___
+Water(0, 10)___Cookie(153, 10)___Protein Bar(211, 10)___Smoothie(175, 10)___
+Cheese Sandwich(367, 10)___Chicken Wrap(560, 10)___Protein Shake(163, 10)___Energy Drink(148, 10)___
+Fried Rice(478, 10)___Smoothie(175, 10)___Cookie(153, 10)___Cheese Sandwich(367, 10)___
+----------
+INPUT: CASH	50 10	CARB	30
+PURCHASE: You have bought one Beef Sandwich
+RETURN: Returning your change: 40 TL
+INPUT: CASH	100	NUMBER	1
+PURCHASE: You have bought one Meatball Sandwich
+RETURN: Returning your change: 67 TL
+INPUT: CASH	50	PROTEIN	27
+PURCHASE: You have bought one Chicken Wrap
+RETURN: Returning your change: 32 TL
+INPUT: CASH	1 1 5 10	FAT	10
+PURCHASE: You have bought one Fried Rice
+RETURN: Returning your change: 2 TL
+INPUT: CASH	10 5	PROTEIN	35
+INFO: Insufficient money, try again with more money.
+RETURN: Returning your change: 15 TL
+INPUT: CASH	10	CALORIE	0
+PURCHASE: You have bought one Water
+RETURN: Returning your change: 7 TL
+INPUT: CASH	20 1	FAT	20
+PURCHASE: You have bought one Cheese Sandwich
+RETURN: Returning your change: 8 TL
+INPUT: CASH	20 1 1 1 1	NUMBER	5
+PURCHASE: You have bought one Cookie
+RETURN: Returning your change: 19 TL
+INPUT: CASH	20 10	PROTEIN	40
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 30 TL
+INPUT: CASH	200	NUMBER	10
+PURCHASE: You have bought one Smoothie
+RETURN: Returning your change: 192 TL
+INPUT: CASH	1 1 5 10	FAT	15
+INFO: Product not found, your money will be returned.
+RETURN: Returning your change: 17 TL
+INPUT: CASH	1 1 1 5 10	NUMBER	7
+PURCHASE: You have bought one Cheese Sandwich
+RETURN: Returning your change: 5 TL
+INPUT: CASH	10 5	PROTEIN	35
+INFO: Insufficient money, try again with more money.
+RETURN: Returning your change: 15 TL
+INPUT: CASH	50	NUMBER	19
+PURCHASE: You have bought one Energy Drink
+RETURN: Returning your change: 42 TL
+INPUT: CASH	10 20	CALORIE	150
+PURCHASE: You have bought one Cookie
+RETURN: Returning your change: 25 TL
+INPUT: CASH	100 10	CARB	40
+PURCHASE: You have bought one Chicken Wrap
+RETURN: Returning your change: 92 TL
+-----Gym Meal Machine-----
+Fried Rice(478, 9)___Meatball Sandwich(868, 9)___Protein Bar(211, 10)___Chicken Wrap(560, 8)___
+Beef Sandwich(487, 9)___Cookie(153, 8)___Water(0, 9)___Cheese Sandwich(367, 8)___
+Energy Drink(148, 10)___Protein Shake(163, 10)___Smoothie(175, 9)___Fried Rice(478, 10)___
+Water(0, 10)___Cookie(153, 10)___Protein Bar(211, 10)___Smoothie(175, 10)___
+Cheese Sandwich(367, 10)___Chicken Wrap(560, 10)___Protein Shake(163, 10)___Energy Drink(148, 9)___
+Fried Rice(478, 10)___Smoothie(175, 10)___Cookie(153, 10)___Cheese Sandwich(367, 10)___
+----------
