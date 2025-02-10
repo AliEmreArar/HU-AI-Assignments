@@ -1,0 +1,11 @@
+Player1 1400
+Player2 1400
+Player3 1400
+Player4 1400
+Player5 1400
+Player6 1400
+Player7 1400
+Player8 1400
+Player9 1400
+Player10 1000
+Player11 1000
